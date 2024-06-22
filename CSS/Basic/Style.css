@@ -10,3 +10,14 @@
     background-color: rgb(238, 34, 102);
     color: white;
 }
+/*hover Effect on different Selector */
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+h1:hover{
+color: rgb(42, 132, 235);
+}
+.para:hover{
+    background-color:aquamarine;
+}
