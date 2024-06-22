@@ -1,3 +1,8 @@
 .id{
     color:rgb(238, 34, 102);
 }
+/* Agr tum Class ko use kar raha toh .dot use karna hoga  */
+.para{
+    background-color: rgb(213, 250, 3);
+    color:rgb(238, 34, 102);
+}
