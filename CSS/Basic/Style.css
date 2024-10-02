@@ -1,23 +1,4 @@
-.id{
-    color:rgb(238, 34, 102);
-}
-/* Agr tum Class ko use kar raha toh .dot use karna hoga  */
-.para{
-    background-color: rgb(213, 250, 3);
-    color:rgb(238, 34, 102);
-}
-#btn{
-    background-color: rgb(238, 34, 102);
-    color: white;
-}
-/*hover Effect on different Selector */
-#btn:hover{
-    background-color: black;
-    color: white;
-}
-h1:hover{
-color: rgb(42, 132, 235);
-}
-.para:hover{
-    background-color:aquamarine;
+/*  #ff3368; #ecfdff; */
+p{
+  color:#e01d51 ;  
 }
