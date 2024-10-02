@@ -8,3 +8,10 @@ h1{
     color: blue;
 }
 
+/* Id Selector */
+
+#btn{
+    color:aliceblue; /* You can also change the text color */
+    background-color: rgb(232, 19, 90); /* You can also change the background color */
+    text-decoration:none ;  /* Remove underline */
+}
