@@ -11,4 +11,11 @@
 /**  Notes: Colors using Various Notations
 /** ------------------------------------ -->
 
+/*? Named Colors: You can use named colors, which are predefined color keywords. */
+h1{
+    color : red;
+}
+p{
+    color: blue;
+}
 
