@@ -45,3 +45,13 @@ p{
 h1{
     color:#ff0000;
 }
+/** ------------------------------------ -->
+/**  MORE ON COLORS
+/** ------------------------------------ -->
+
+/*? HSL Colors: HSL (Hue, Saturation, Lightness) values provide a way to specify colors based on their hue, saturation, and lightness. */
+
+h1{
+    color: hsl(0,100%,50%);
+}
+/*? HSLA Colors: Similar to HSL, HSLA includes an alpha channel for opacity control. */
