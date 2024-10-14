@@ -17,4 +17,12 @@ background-image:url("https://w0.peakpx.com/wallpaper/145/119/HD-wallpaper-gold-
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: left bottom; 
+background-blend-mode: difference;
 }
+
+/** ------------------------------------- -->
+/**  BACKGROUND PROPERTY IN CSS3  
+/** ---------------------------------------- -->
+/*? background-blend-mode: Applies blending modes to the background image and color. */
+/* Values: Various blending mode keywords like multiply, screen, overlay.
+   Example: background-blend-mode: multiply; */
