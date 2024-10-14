@@ -5,6 +5,7 @@
 /*? background-color: Sets the background color of an element.
 Example: background-color: #FF5733; */
 .b{
-
+  width: 100%;
+  height: 100vh;
   
 }
