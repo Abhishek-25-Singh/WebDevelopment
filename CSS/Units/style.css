@@ -47,3 +47,23 @@ li{
   font-size:28px;
   color:orange;
 } */
+/*? for Percentages  100% = 16px  */
+/* 1px = 6.25% */
+
+/** 54px * 6.25% = 337.5%  */
+/* h1{
+  font-size:337.5%; 
+} */
+
+
+
+/** 38px * 6.25% = 237.5%  */
+/* p{
+  font-size:237.5%; 
+} */
+
+
+/** 44px * 6.25% = 275%  */
+/* li{
+  font-size:275%; 
+} */
