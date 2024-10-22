@@ -33,3 +33,17 @@ Using rem ensures that the size is consistent throughout the entire document, ma
 body {
   background-color: hsl(0, 0%, 94%);
 }
+/*? for Pixels  */
+/* h1{
+  font-size :54px;
+  color:red;
+}
+
+p{
+  font-size:32px;
+  color:blue;
+}
+li{
+  font-size:28px;
+  color:orange;
+} */
