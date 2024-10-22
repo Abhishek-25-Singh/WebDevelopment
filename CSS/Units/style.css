@@ -67,3 +67,21 @@ li{
 /* li{
   font-size:275%; 
 } */
+/*? for 1 em  = 16px */
+
+h1{
+  font-size :3.375;
+  color:red;
+}
+
+p{
+  font-size:2.25em;
+  color:blue;
+}
+li{
+  font-size:2.7em;
+  color:orange;
+}
+.parent{
+  font-size:10px;
+}
