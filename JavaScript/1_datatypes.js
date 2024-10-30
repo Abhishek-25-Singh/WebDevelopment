@@ -27,3 +27,19 @@
 //? Symbol: Represents a unique and immutable data type, often used to create unique identifiers.
 // Example:
 // const mySymbol = Symbol("description");
+
+//* ========== parseInt & parseFloat Section ==========
+//? parseInt and parseFloat are both functions in JavaScript used for converting strings to numbers, but they have different use cases.
+//* parseInt: Definition: parseInt is used to parse a string and convert it to an integer (whole number).
+// const myString = "42";
+// const myNumber = parseInt(myString, 10);
+// console.log(myNumber); // Output: 42
+
+// const myString = "42.5";
+// const myNumber = parseInt(myString);
+// console.log(myNumber); // Output: 42
+
+//* parseFloat: Definition: parseFloat is used to parse a string and convert it to a floating-point number (decimal number).
+// const myString = "42.5";
+// const myNumber = parseFloat(myString);
+// console.log(myNumber); // Output: 42.5
