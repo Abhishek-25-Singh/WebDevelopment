@@ -43,3 +43,8 @@
 // const myString = "42.5";
 // const myNumber = parseFloat(myString);
 // console.log(myNumber); // Output: 42.5
+
+//TODO  Key Differences:
+//? parseInt is used for converting to integers and ignores anything after the decimal point.
+//? parseFloat is used for converting to floating-point numbers, preserving the decimal part.
+//? Both functions will attempt to convert as much of the string as possible until an invalid character is encountered.
