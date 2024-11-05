@@ -12,3 +12,22 @@ body {
 .hero-section {
   width: 50%;
 }
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+ 
+}
+
+p {
+  font-family: "poppins", sans-serif;
+
+ 
+}
+
+a {
+  font-family: "Urbanist", sans-serif;
+}
+
+.h1{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
