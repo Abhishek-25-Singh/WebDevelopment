@@ -63,3 +63,13 @@ a {
 /* Including fallback fonts in your CSS font stack is important for ensuring that text remains legible on a variety of devices and browsers. If the preferred font is not available on a user's device, the browser will attempt to use the fallback fonts you specify. This helps maintain a consistent and readable design. */
 
 /* font-family: "Preferred Font", Fallback1, Fallback2, sans-serif; */
+/** ------------------------------------- -->
+/**  Notes + Tips
+/** ---------------------------------------- -->
+
+/*? Common font formats and their corresponding format values are: */
+/* TrueType Font (.ttf): format('truetype') or format('opentype')
+WOFF Font (.woff): format('woff')
+WOFF2 Font (.woff2): format('woff2')
+Embedded OpenType Font (.eot): format('embedded-opentype')
+SVG Font (.svg): format('svg')  */
