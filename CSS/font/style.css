@@ -16,20 +16,24 @@ body {
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
    font-size:54px;
+   font-weight:900;
 }
 
 p {
   font-family: "poppins", sans-serif;
 font-size:36px;
+  font-weight:400;
  
 }
 
 a {
   font-family: "Urbanist", sans-serif;
   font-size:20px;
+  font-weight:400;
 }
 
 .h1{
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size:54px;
+   font-weight:900;
 }
