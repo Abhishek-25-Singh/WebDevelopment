@@ -15,19 +15,21 @@ body {
 
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
- 
+   font-size:54px;
 }
 
 p {
   font-family: "poppins", sans-serif;
-
+font-size:36px;
  
 }
 
 a {
   font-family: "Urbanist", sans-serif;
+  font-size:20px;
 }
 
 .h1{
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size:54px;
 }
