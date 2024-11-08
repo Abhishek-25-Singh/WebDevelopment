@@ -1,0 +1,160 @@
+<!-- *------------------------------------- -->
+<!--*  HTML LIST - ORDER VS UNORDERED TAG  
+<!-- *---------------------------------------- -->
+
+<!-- 
+  
+  ?Unordered List (<ul>) Example:  An unordered list is used to create a list of items that are not in any particular order. Each list item is marked with a bullet point.
+
+  
+  Unordered List (<ul>) Styles:
+
+  Disc (list-style-type: disc;): Default style - filled circles.
+  Circle (list-style-type: circle;): Hollow circles.
+  Square (list-style-type: square;): Squares.
+  None (list-style-type: none;): No bullet points.
+  -->
+    
+  <!DOCTYPE html>
+  <html lang="eng">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> HTML LIST TAG</title>
+    <style>
+      html{
+        font-family:"Jost",sans-serif;
+        background-color:#efefef
+      }
+      h1{
+        font-weight:bold;
+      }
+      li{
+        text-transform:capitalize;
+      }
+    </style>
+    </head>
+    <body>
+      <h1>Unordered List</h1>
+      <ul>
+        <!--*Disc(list-style-type:disc): Default Style- Filled Circles-->
+        <li style = "list-style-type:disc"> Mithilesh Kumar Singh</li>
+        <!--*Circle(list-style-type:circle):Hollow Circle -->
+        <li style="list-style-type:circle"> Guddi Dvei    </li>
+        <!--*Square(list-style-type:Square)-->
+        <li style="list-style-type:square"> Abhishek Singh</li>
+        <!--*none(list-style-type:none)-->
+        <li style="list-style-type:none">   Anurag   Singh</li>
+      </ul>
+
+      <hr>
+      <h1>Ordered List</h1>
+<!--    
+Ordered List (<ol>) Example:
+   An ordered list is used to create a list of items in a specific order, typically indicated by numbers.
+
+
+Ordered List (<ol>) Styles:
+
+  Decimal (list-style-type: decimal;): Default style - decimal numbers.
+  Lowercase Letters (list-style-type: lower-alpha;): Lowercase letters (a, b, c).
+  Uppercase Letters (list-style-type: upper-alpha;): Uppercase letters (A, B, C).
+  Lowercase Roman Numerals (list-style-type: lower-roman;): Lowercase Roman numerals (i, ii, iii).
+  Uppercase Roman Numerals (list-style-type: upper-roman;): Uppercase Roman numerals (I, II, III) 
+
+-->
+
+<ol style="list-style-type:lower-alpha;">
+  <li>Before First</li>
+<li style="list-style-type:upper-alpha">1st Class</li>
+<li style="list-style-type:lower-roman">2nd Class</li>
+<li style="list-style-type:upper-roman">3rd Class</li>
+
+<h2>type attribute</h2>
+<li type="1" >4th Class</li>
+<li type="A">7th Class</li>
+<li type="a">6th Class</li>
+<li type="i">7th Class</li>
+<li type="I">8th Class</li>
+
+</ol>
+<h1>Start attribute</h1>
+<ol start="50">
+  <li >Tea</li>
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Juice</li>
+  <li>Shakes</li>
+</ol>
+<hr>
+<h1>Interview Question Number 3</h1>
+
+<ul>
+<!--Creating List Inside another list( Unordered list ke aandar ordered list) -->
+<li>Fruits
+          <ol>
+             <li>Mango</li>
+             <!--Creating List Inside another list( ordered list ke aandar Unordered list  ) -->
+             <li>Apple
+                     <ul> <!--*The reason the <ul> containing <li>Red</li> and <li>Green</li> 
+                          <!--*is showing a square style instead of the default disc style is    
+                          <!--*due to nested lists and how browsers apply different list
+                          <!--*styles for different levels of lists.                                -->
+                          <!--? How List Styles Work in Nested Lists:-->
+                          <!--*By default, browsers display:  
+                          <!--* 1.<ul> (unordered list) items with disc bullets at the first level.
+                          <!--* 2.For nested <ul> lists (second level or deeper), the browser often uses square bullets.  -->
+
+                      
+                          <li>Red</li>
+                         <li>Green</li>
+                     </ul>
+             </li>
+             <li>Pears</li>
+          </ol>
+</li>
+<li>vegetables</li>
+<li>Meat      </li>
+
+</ul>
+
+<hr>
+<h1>Interview Question 4</h1>
+<ul style="list-style-type:none;display:flex;gap:15px">
+  <li><a href=""target="_blank">Home</a></li> 
+  <li>About</li>
+  <li>Contact</li>
+  <li>Service</li>
+</ul>
+    </body>
+  </html>
+
+
+
+ 
+
+<!-- *------------------------------------- -->
+<!--* INTERVIEW Q:  HTML LIST 
+<!-- *---------------------------------------- -->
+
+<!--? 1: What is the significance of the type attribute in ordered lists? -->
+<!-- Decimal Numbers (type="1"): This is the default style. It uses regular decimal numbers. 
+  Uppercase Letters (type="A"): It uses uppercase letters (A, B, C) as list item numbers.
+Lowercase Letters (type="a"): It uses lowercase letters (a, b, c) as list item numbers.
+Uppercase Roman Numerals (type="I"): It uses uppercase Roman numerals (I, II, III) as list item numbers.
+Lowercase Roman Numerals (type="i"): It uses lowercase Roman numerals (i, ii, iii) as list item numbers. -->
+
+<!--? 2: What is the use of the start attribute in ordered lists? -->
+<!--* By default, an ordered list will start counting from 1. 
+<!--* If you want to start counting from a specified number, 
+<!--* you can use the start attribute: 
+<!--*              <ol start="50">
+<!--*              <li>Coffee</li>
+<!--*              <li>Tea</li>
+<!--*              <li>Milk</li>
+<!--*              </ol>                  -->
+ 
+                                             
+<!--? 3: Explain the concept of nested lists  -->
+
+<!--? 4: How do you create a horizontal navigation menu using an unordered list? -->
