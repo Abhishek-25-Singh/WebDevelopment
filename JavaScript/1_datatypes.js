@@ -67,7 +67,25 @@ console.log(StrNum2);
 // Example:
 var numStr1 = 123+"";
 console.log(typeof( numStr1));
+
 //? 7: Explain the concept of truthy and falsy values in JavaScript. Provide examples.❓
+
+//* In JavaScript, values are either considered "truthy" or "falsy" when evaluated in a boolean context.
+
+//? Truthy values are treated as true when used in conditions. Examples include:
+// 👉 true
+// 👉 Any non-empty string ("hello")
+// 👉 Any non-zero number (42)
+// 👉 Arrays and objects, even if they're not empty
+
+// Falsy values are treated as false in boolean contexts. Examples include:
+// 👉 false
+// 👉 0 (zero)
+// 👉 '' (an empty string)
+// 👉 null
+// 👉 undefined
+// 👉 NaN (Not a Number)
+
 
 //? 8: To check if a non-empty string is truthy or falsy in JavaScript, we can directly use if statement.
 let myString = "";
