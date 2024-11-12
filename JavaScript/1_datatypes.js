@@ -27,7 +27,59 @@
 //? Symbol: Represents a unique and immutable data type, often used to create unique identifiers.
 // Example:
 // const mySymbol = Symbol("description");
+//! ============================
+//! Data Types Interview Questions
+//! ============================
 
+//? 1: What is the difference between null and undefined in JavaScript❓
+
+//* Null is a Assignment value, meaning that a variable has been declared and assigned the value null
+var iAmUseless = null;
+console.log(iAmUseless);
+
+//* In case of undefined a variable has been declared but not yet assigned a value
+var iAmStandby;
+console.log(iAmStandby);
+
+//? 2: What is the purpose of typeof operator in JavaScript❓
+//*The typeof operator in JavaScript is used to determine the type of a variable or expression. It returns a string that indicates the data type of the operand.
+//? 3: What is the result of `typeof null` in JavaScript❓
+console.log(typeof null);
+//? 4: What are primitive data types in JavaScript❓
+//*1.number
+//*2.Boolean
+//*3.String
+//*4.BigInt
+//*5.null
+//*6.undefined
+//*7.Symbol
+
+//? 5: Convert a string to a number?
+// We just need to add the '+' sign before the string
+// Example:
+var StrNum1 = +"123";
+console.log(typeof(StrNum1));
+var StrNum2 = +"ABHI";
+console.log(typeof(StrNum2));
+console.log(StrNum2);
+//? 6: Convert a number to a string?
+// We just need to add an empty string after the number
+// Example:
+var numStr1 = 123+"";
+console.log(typeof( numStr1));
+//? 7: Explain the concept of truthy and falsy values in JavaScript. Provide examples.❓
+
+//? 8: To check if a non-empty string is truthy or falsy in JavaScript, we can directly use if statement.
+let myString = "";
+
+if (myString) {
+  console.log("The string is truthy!");
+} else {
+  console.log("The string is falsy."); // This will execute
+}
+
+
+//* ==========  Data Types End Section ==========
 //* ========== parseInt & parseFloat Section ==========
 //? parseInt and parseFloat are both functions in JavaScript used for converting strings to numbers, but they have different use cases.
 //* parseInt: Definition: parseInt is used to parse a string and convert it to an integer (whole number).
