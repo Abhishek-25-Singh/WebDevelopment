@@ -27,4 +27,14 @@ body {
   place-items: center;
   font-family: "Urbanist", sans-serif;
 }
+.hero-section {
+  width: 50%;
+}
+h1{
+    font-size:54px;
+    font-weight:900;
+    /*?Text properties starts from here*/
+    /**TextAlignment-->left right center justify*/
+    text-align:left;
 
+}
