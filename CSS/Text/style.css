@@ -84,3 +84,10 @@ a{
   text-decoration-line:none;
   -moz-text-decoration-line:none;
 }
+
+/** ------------------------------------- -->
+/**  INTERVIEW QUESTIONS
+/** ---------------------------------------- --> */
+
+/*? 1: How can you control the spacing between lines of text in CSS? */
+/* The line-height property is used to control the spacing between lines of text. It can be set to a specific unit like px or a relative value like 1.5, which multiplies the font size. */
