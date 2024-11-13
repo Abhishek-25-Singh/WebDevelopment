@@ -50,6 +50,8 @@ p,a{
   letter-spacing: 1px;
    word-spacing: 1px;
    line-height: 1.56 ;
+    white-space:nowrap;
+ /* white-space:nowrap; */
 }
 
 
