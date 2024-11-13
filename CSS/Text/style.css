@@ -36,5 +36,7 @@ h1{
     /*?Text properties starts from here*/
     /**TextAlignment-->left right center justify*/
     text-align:left;
+        /**Text Decoration lines-->*//**TextDecoration(text-decoration-lines)-->underline,overline and line-through*/
+    text-decoration-line:underline ;
 
 }
