@@ -118,3 +118,38 @@ if (myString) {
 //? parseInt is used for converting to integers and ignores anything after the decimal point.
 //? parseFloat is used for converting to floating-point numbers, preserving the decimal part.
 //? Both functions will attempt to convert as much of the string as possible until an invalid character is encountered.
+
+//! Here are more examples
+console.log(parseInt("123"));
+// 123 (default base-10)
+console.log(parseInt("123", 10));
+// 123 (explicitly specify base-10)
+console.log(parseInt("   123 "));
+// 123 (whitespace is ignored)
+console.log(parseInt("077"));
+// 77 (leading zeros are ignored)
+console.log(parseInt("1.9"));
+// 1 (decimal part is truncated)
+
+//! When we will not get an Output
+// console.log(parseInt("&123"));
+// console.log(parseInt("-123"));
+// console.log(parseInt("xyz"));
+// NaN (input can't be converted to an integer)
+
+//? What is the purpose of the NaN value in JavaScript❓
+//? NaN stands for "Not a Number" and is returned when a mathematical operation doesn't yield a valid number.
+//? Also, to check whether a value is number or not we can use isNaN() function.
+
+// console.log(isNaN("vinod"));
+// console.log(parseInt("xyz"));
+// console.log(parseInt("@#$"));
+
+// //! NaN === NaN, Why is it false ❓
+// if (NaN == NaN) {
+//   console.log("both are equal ");
+// } else {
+//   console.log("not equal");
+// }
+
+//* ========== parseInt & parseFloat End Section ==========
