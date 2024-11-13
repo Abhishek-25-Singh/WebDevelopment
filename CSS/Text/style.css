@@ -38,5 +38,7 @@ h1{
     text-align:left;
         /**Text Decoration lines-->*//**TextDecoration(text-decoration-lines)-->underline,overline and line-through*/
     text-decoration-line:underline ;
+    /**TextDecoration(text-decoration-style)-->solid,double,dotted,wavy and dashed*/
+    text-decoration-style:solid;
 
 }
