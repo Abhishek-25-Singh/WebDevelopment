@@ -21,3 +21,10 @@
 
 /*? textTransform:- The text-transform property allows you to control the capitalization of text. */
 /* Values include uppercase (converts text to all uppercase), lowercase (converts text to all lowercase), and capitalize (capitalizes the first letter of each word). */
+body {
+  background-color: hsl(0, 0%, 94%);
+  display: grid;
+  place-items: center;
+  font-family: "Urbanist", sans-serif;
+}
+
