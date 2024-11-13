@@ -66,18 +66,17 @@ p,a{
    line-height: 1.56 ;
     white-space:nowrap;
  /* white-space:nowrap; */
+
+
+    /** ------------------------------------- -->
+/**  TEXT PROPERTY OF CSS3
+/** ---------------------------------------- --> */
+
+/*? Text Shadow:- The text-shadow property allows you to add a shadow effect to text characters. */
+/* - It takes three values: horizontal shadow offset, vertical shadow offset, and the shadow color. */
+
+    text-shadow:-2px -2px 5px red;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 a{
