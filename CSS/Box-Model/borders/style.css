@@ -13,3 +13,13 @@ p {
   word-spacing: 2px;
   line-height: 1.5;
 }
+/** ------------------------------------- -->
+/**  BORDERS IN CSS
+/** ---------------------------------------- --> */
+.section-border {
+  width: 1000px;
+  color: #fff;
+  background-color: #5e9de9;
+  /*?  border here  */
+border: 15px solid #003180;
+}
