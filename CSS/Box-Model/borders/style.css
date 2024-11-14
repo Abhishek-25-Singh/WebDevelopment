@@ -44,3 +44,28 @@ border: 15px solid #003180;
   border-top-color: #003b99; */
   
 }
+
+/** ------------------------------------- -->
+/**  BORDERS IN CSS3
+/** ---------------------------------------- --> */
+
+div {
+  width: 500px;
+  height: 300px;
+  background-color: #5e9de9;
+  /*border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  */
+  /* border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  ); */
+}
