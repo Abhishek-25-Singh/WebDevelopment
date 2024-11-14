@@ -22,4 +22,8 @@ p {
   background-color: #5e9de9;
   /*?  border here  */
 border: 15px solid #003180;
+  /*?  write each property individual  */
+ /* border-width: 15px;
+  border-style: solid;
+  border-color: #003180; */
 }
