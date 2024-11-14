@@ -1,0 +1,15 @@
+html {
+  /* font-size: 62.5%; */
+  font-family: "Urbanist", sans-serif;
+}
+#main-heading {
+  font-size: 64px;
+  color: #1e1403;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
