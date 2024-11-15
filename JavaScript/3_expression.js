@@ -74,3 +74,11 @@ console.log(result5);
 
 let result6 = 5 + "10";
 console.log(result6);
+
+//* ===================================
+//*  InterView Question
+//* ====================================
+
+//! let result = 0.1 + 0.2 ❓ 🤔💭
+result = 0.2 + 0.2;
+console.log(result);
