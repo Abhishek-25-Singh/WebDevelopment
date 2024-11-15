@@ -82,3 +82,12 @@ console.log(result6);
 //! let result = 0.1 + 0.2 ❓ 🤔💭
 result = 0.2 + 0.2;
 console.log(result);
+
+//* ===================================
+//* 3: String Operators
+//* ====================================
+// var str1 = "Hello";
+// var str2 = "World";
+// var str3 = str1 + str2;
+// console.log(str3);
+//! console.log("5" + 3);  // Outputs "53" ❓
