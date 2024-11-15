@@ -1,3 +1,3 @@
 //* ===================================
-//*  EXPRESSIONS AND OPERATORS Section
+//*  EXPRESSIONS AND OPERATORS Sections
 //* ====================================
