@@ -127,3 +127,9 @@ console.log(result);
 // Checks if the value on the left is less than or equal to the value on the right.
 // Example: 5 <= 10 evaluates to true.
 // console.log(5 >= 10);
+
+//* ===================================
+//*  InterView Question
+//* ====================================
+
+//! What is the difference between == and === operators in JavaScript❓
