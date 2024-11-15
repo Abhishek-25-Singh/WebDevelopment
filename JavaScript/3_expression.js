@@ -48,3 +48,29 @@ var channelName = "Star Movie Studio ";
 // let c = 17;
 // let d = 5;
 // let remainder = c % d;
+
+//* ===================================
+//* Challenge Time
+//* ====================================
+
+//! What will be the Output 🤔💭
+// let result = "hello" / 2 ❓
+// let result =  2 / "hello"   ❓
+let result = "hello" / 2;
+console.log(result);
+let result1 = 2 / "hello" ;
+console.log(result1);
+
+let result2 = "hello"-5 ;
+console.log(result2);
+
+let result3 = "a"-5 ;
+console.log(result3);
+let result4 = "10"-5 ;
+console.log(result4);
+
+let result5 = "10"+5 ;
+console.log(result5);
+
+let result6 = 5 + "10";
+console.log(result6);
