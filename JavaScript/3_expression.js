@@ -138,3 +138,21 @@ console.log(result);
 //* ===================================
 //* 5: Logical operators in JavaScript
 //* ====================================
+
+//? Logical AND (&&): Returns true if both operands are true, otherwise, it returns false.
+// Example:
+// var x = 5;
+// var y = 10;
+// console.log(x > 0 && y > 0);
+
+//? Logical OR (||): Returns true if at least one of the operands is true, otherwise, it returns false.
+// Example:
+// var a = 15;
+// var b = 0;
+// console.log(a > 10 || b > 10);
+
+//? Logical NOT (!):
+//? Returns true if the operand is false, and false if the operand is true.
+// Example:
+// var isOpen = false;
+// console.log(!isOpen);
