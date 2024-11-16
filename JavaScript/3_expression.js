@@ -133,3 +133,8 @@ console.log(result);
 //* ====================================
 
 //! What is the difference between == and === operators in JavaScript❓
+
+
+//* ===================================
+//* 5: Logical operators in JavaScript
+//* ====================================
