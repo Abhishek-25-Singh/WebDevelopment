@@ -8,14 +8,14 @@ html {
   font-family: Urbanist;
 }
 
+body {
+  padding: 0 5rem;
+}
 
-
-
-
-
-
-
-
+#main-heading {
+  padding: 4rem 0;
+  color: #1e1403;
+}
 
 
 p {
@@ -24,7 +24,6 @@ p {
   font-size: 18px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-
 
 /* box model css --> Padding */
 .section-padding {
