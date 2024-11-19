@@ -32,4 +32,7 @@ p {
   color: #fff;
   border: 10px solid #003b99;
 
+  /*? Apply to all four sides */
+  /* padding: 100px; */
+
 }
