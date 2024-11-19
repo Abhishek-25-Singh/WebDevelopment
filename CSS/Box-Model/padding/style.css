@@ -37,4 +37,7 @@ p {
  
   /*? top and bottom | left and right */
   /* padding: 100px 150px; */
+
+  /*? top | left and right | bottom */
+/* padding: 100px 150px 200px; */
 }
