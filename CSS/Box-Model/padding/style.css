@@ -46,5 +46,9 @@ p {
 
     /*? top | right | bottom | left */
   /* padding: 100px 150px 50px 200px; */
+   /* padding-top: -300px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  padding-left: 200px; */
 
 }
