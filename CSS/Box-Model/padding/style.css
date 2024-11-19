@@ -7,3 +7,20 @@
 html {
   font-family: Urbanist;
 }
+
+
+
+
+
+
+
+
+
+
+
+p {
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
