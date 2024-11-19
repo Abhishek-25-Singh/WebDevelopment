@@ -34,5 +34,7 @@ p {
 
   /*? Apply to all four sides */
   /* padding: 100px; */
-
+ 
+  /*? top and bottom | left and right */
+  /* padding: 100px 150px; */
 }
