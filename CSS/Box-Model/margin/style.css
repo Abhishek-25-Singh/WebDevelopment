@@ -40,3 +40,30 @@ p {
   letter-spacing: 1px;
   font-size: 18px;
 }
+
+/* box model css  */
+.section-one {
+  padding: 50px;
+  width: 1200px;
+  background-color: #5e9de9;
+  color: #fff;
+
+  /*? Four Values: `margin: top right bottom left;` */
+/* margin: 200px 200px 200px 200px; */
+
+/*? Three Values: margin: top right-left bottom; */
+/* margin: 100px 200px 60px; */
+
+/*? Two Values: margin: top-bottom right-left; */
+ /* margin: 200px 150px; */
+
+
+/*? One Value: margin: value; */
+/* margin: 200px; */
+/* margin-bottom:50px; */
+/* margin-left:200px; */
+/* margin:auto; */
+/* margin-bottom:50px; */
+margin:40px;
+
+}
