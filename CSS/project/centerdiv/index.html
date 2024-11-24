@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Div</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color:#191825;
+            /*? 1st Method Using position*/
+           /* position:relative;*/
+           
+           
+            /* 2nd Method Using flex-box*/
+         
+            /*  display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;   */
+
+
+       /* 3rd Method Using Grid*/
+            
+       /*  display:grid;
+              place-items:center;*/
+
+           
+           
+       /* 4th Method Using flex-box     */
+         
+         /*     display:grid;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;   */
+
+
+
+/* 5th flex and Margin    */
+   /*display:flex; */
+
+
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+
+        }
+        .child{
+            width:400px;
+            height:400px;
+            background-color:#865dff;
+            /*? 1st Method Using position*/
+      /*      position:absolute;
+            left:50%;
+            top:50%;
+            bottom:50%;
+            transform:translate(-50%,-50%);
+            */
+
+            /* 5th flex and Margin    */
+           /* margin:auto;*/
+           
+           
+           
+           
+           /* Text Center in the Child*/
+           display:flex;
+           justify-content:center;
+           align-items:center;
+            color:#fff;
+            text-transform:uppercase;
+            font-size:20px;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="child">Center Text</div> 
+</body>
+</html>
