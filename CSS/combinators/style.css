@@ -82,3 +82,9 @@ img {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+/** --------------------------------- */
+/*? Descendant Selector (Space)*/
+/* .content-1 ul p{
+  font-weight: bold;
+  color:red;
+} */
