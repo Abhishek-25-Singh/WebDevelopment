@@ -1,6 +1,9 @@
 /** ------------------------------------- -->
 /** CSS COMBINATORS
 /** ---------------------------------------- --> */
+
+
+/*? Universal Selector (*): Selects all elements. */
 * {
   margin: 0;
   padding: 0;
