@@ -99,3 +99,8 @@ img {
 /* .content-1 ul p + li {
   color: rgb(207, 12, 159);
 } */
+
+/*? General Sibling Selector (+)*/
+.content-1 ul p~li{
+  color:rgb(213, 31, 192);
+}
