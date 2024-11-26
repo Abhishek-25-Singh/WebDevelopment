@@ -93,3 +93,9 @@ img {
 /* .content-1 ul > li {
   color:brown;
 } */
+
+/*? Adjacent Sibling Selector (+)*/
+
+/* .content-1 ul p + li {
+  color: rgb(207, 12, 159);
+} */
