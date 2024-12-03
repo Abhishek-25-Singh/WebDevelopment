@@ -16,3 +16,10 @@
 // let MyFavWorldBestName = "Abhishek";
 //     MyFavWorldBestName = "Abhishek Singh";
 //     console.log(MyFavWorldBestName);
+
+
+              // *const Keyword  
+// const MyFavWorldBestName = "Abhishek";
+//! Uncaught TypeError: Assignment to constant variable.
+    // MyFavWorldBestName = "Abhishek Singh";  
+    // console.log(MyFavWorldBestName);
