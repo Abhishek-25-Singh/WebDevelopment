@@ -81,3 +81,15 @@
 // }
 //! Error -->Uncaught ReferenceError: name is not defined
         // console.log(name);
+
+
+//* ==========================================
+//* TEMPLATE STRINGS - EcmaScript 2015
+//* =========================================
+
+
+// let firstName = "Abhishek";
+// let lastName = "singh";
+
+// let fullName = firstName + lastName;
+// console.log(fullName);
