@@ -150,3 +150,29 @@
 // }
 // sum();
 // sum(2,1);
+
+
+//* ==========================================
+//*  FAT ARROW FUNCTION
+//* =========================================
+
+// const sum = function(a,b){
+//     let result = `The sum of ${a} and ${b} is ${a + b}.`;
+//      console.log(result);
+// }
+
+// sum(5,5)
+
+const sum = (a,b)=>{
+    let result = `The sum of ${a} and ${b} is ${a + b}.`;
+    console.log(result);
+
+}
+sum(5,5);
+
+//! How to convert the same in fat arrow function
+// Syntax
+// const functionName = (param1, param2, ...) => {
+//     // Function body
+//     return result; // Optional
+//   };
