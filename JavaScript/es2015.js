@@ -56,3 +56,28 @@
 //  name = "Abhishek Singh";
 // console.log(name);
 
+
+                       //* Var Keyword
+// if(true){
+//     var name = "Singh";
+//        console.log(name);
+// }
+//  name = "Abhishek Singh";
+//  console.log(name);
+
+                      //* let Keyword
+
+//      if(true){
+//      let name = "Singh";
+//    console.log(name);
+// }
+//       name = "Abhishek Singh";
+//          console.log(name);
+
+
+// if(true){
+//     let name = "Singh";
+//   console.log(name);
+// }
+//! Error -->Uncaught ReferenceError: name is not defined
+        // console.log(name);
