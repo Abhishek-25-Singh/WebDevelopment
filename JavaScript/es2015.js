@@ -23,3 +23,14 @@
 //! Uncaught TypeError: Assignment to constant variable.
     // MyFavWorldBestName = "Abhishek Singh";  
     // console.log(MyFavWorldBestName);
+
+
+//*-----------------Example 1 Var Keyword--------------------
+// var name = "abhishek";
+
+// if(true){
+//     var name = "Singh";
+//     console.log(name);
+// }
+// var name = "Abhishek Singh";
+// console.log(name);
