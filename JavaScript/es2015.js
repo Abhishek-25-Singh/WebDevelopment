@@ -120,3 +120,13 @@
 // console.log("5 * " + num + " = " + 5 * num);
 // console.log(`5 * ${num} = ${num * num} `);
 
+
+//? Advantages:
+//? Readability
+
+//? Conciseness
+
+//? Expression Flexibility
+
+//? Multi-line Support
+
