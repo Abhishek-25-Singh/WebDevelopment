@@ -93,3 +93,10 @@
 
 // let fullName = firstName + lastName;
 // console.log(fullName);
+
+//*-----------------String Interpolation--------------------
+// let age = 29;
+// // Using template string for string interpolation
+// String interpolation with variable
+// let message = `I am ${age} years old.`;
+// console.log(message);
