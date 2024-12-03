@@ -34,3 +34,15 @@
 // }
 // var name = "Abhishek Singh";
 // console.log(name);
+
+
+//*-----------------Example 2 let Keyword--------------------
+// let name = "abhishek";
+
+// if(true){
+//     let name = "Singh";
+//     console.log(name);
+// }
+//  name = "Abhishek Singh";
+// console.log(name);
+
