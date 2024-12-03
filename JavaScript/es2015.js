@@ -130,3 +130,18 @@
 
 //? Multi-line Support
 
+
+//* ==========================================
+//* DEFAULT Parameters
+//* =========================================
+
+//! Write a function to find sum of two numbers? What if during function call user only passed one argument?
+//? NO Default parameter
+// function sum(a,b){
+//     console.log(a+b);
+// }
+// sum(5,6);
+//! Output : NaN
+// sum(7);
+
+
