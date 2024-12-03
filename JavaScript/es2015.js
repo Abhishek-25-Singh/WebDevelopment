@@ -176,3 +176,17 @@ sum(5,5);
 //     // Function body
 //     return result; // Optional
 //   };
+
+
+// todo NOTES
+
+//🚀 1: If the function body consists of a single expression, the braces {} and the return keyword can be omitted.
+// const sum = (a, b) => `The sum of ${a} and ${b} is ${a + b}`;
+// console.log(sum(5, 5));
+
+//🚀 2: If there is only one parameter, the parentheses () around the parameter list can be omitted.
+// const square = a => `The square of ${a} is  ${a * a}`;
+// console.log(square(5));
+
+//🚀 3: If there are no parameters, use an empty set of parentheses ().
+// const greet = () => console.log('abhishek Singh');
