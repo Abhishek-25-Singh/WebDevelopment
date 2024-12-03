@@ -100,3 +100,13 @@
 // String interpolation with variable
 // let message = `I am ${age} years old.`;
 // console.log(message);
+
+
+//*-----------------Multi-line Strings--------------------
+// let multiLineString = `
+//   This is a multi-line
+//   string using template literals.
+//   It's much cleaner and easier to read.
+// `;
+
+// console.log(multiLineString);
