@@ -144,4 +144,9 @@
 //! Output : NaN
 // sum(7);
 
-
+//*------------------With Default Parameter---------------
+// function sum(a=9,b=6){
+//     console.log(a+b);
+// }
+// sum();
+// sum(2,1);
