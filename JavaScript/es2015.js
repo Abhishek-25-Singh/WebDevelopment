@@ -46,3 +46,13 @@
 //  name = "Abhishek Singh";
 // console.log(name);
 
+//*-----------------Example 3 const Keyword--------------------
+// const name = "abhishek";
+
+// if(true){
+//     const name = "Singh";
+//     console.log(name);
+// }
+//  name = "Abhishek Singh";
+// console.log(name);
+
