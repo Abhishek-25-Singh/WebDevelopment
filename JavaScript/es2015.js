@@ -110,3 +110,13 @@
 // `;
 
 // console.log(multiLineString);
+
+
+//*-----------------Expression Evaluation--------------------
+//? Expression Evaluation: Template expressions can include any valid JavaScript expression.
+
+//! Practice Time
+// let num =5;
+// console.log("5 * " + num + " = " + 5 * num);
+// console.log(`5 * ${num} = ${num * num} `);
+
